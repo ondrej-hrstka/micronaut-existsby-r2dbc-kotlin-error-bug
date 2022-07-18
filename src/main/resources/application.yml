@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: micronautBrokenExistsR2dbcExample
+r2dbc:
+  datasources:
+    default:
+      url: r2dbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: ''
+      schema-generate: CREATE_DROP
+      dialect: POSTGRES
+netty:
+  default:
+    allocator:
+      max-order: 3
