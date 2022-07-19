@@ -15,11 +15,11 @@ repositories {
 }
 
 dependencies {
-    kapt("io.micronaut.data:micronaut-data-processor")
+    kapt("io.micronaut.data:micronaut-data-processor:3.5.0")
     kapt("io.micronaut:micronaut-http-validation")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-jackson-databind")
-    implementation("io.micronaut.data:micronaut-data-r2dbc")
+    implementation("io.micronaut.data:micronaut-data-r2dbc:3.5.0")
     implementation("io.micronaut.kotlin:micronaut-kotlin-runtime")
     implementation("jakarta.annotation:jakarta.annotation-api")
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
